@@ -13,7 +13,7 @@
     <Button
         p1:text="contiune"
         p1:layout_width="104.0dp"
-        p1:layout_height="34.5dp"
+        p1:layout_height="41.0dp"
         p1:id="@+id/chatNext" />
     <TextView
         p1:text="This is the box that shows the character conversation"
