@@ -5,11 +5,11 @@
     p1:layout_height="match_parent"
     p1:id="@+id/linearLayout1">
     <TextView
-        p1:text="chacater Name"
-        p1:layout_width="112.5dp"
+        p1:text="Character Name"
+        p1:textAppearance="?android:attr/textAppearanceLarge"
+        p1:layout_width="match_parent"
         p1:layout_height="wrap_content"
-        p1:id="@+id/charName"
-        p1:layout_marginRight="0.0dp" />
+        p1:id="@+id/charName" />
     <Button
         p1:text="contiune"
         p1:layout_width="104.0dp"
@@ -18,7 +18,28 @@
     <TextView
         p1:text="This is the box that shows the character conversation"
         p1:layout_width="match_parent"
-        p1:layout_height="150dp"
-        p1:id="@+id/chatbox"
-        p1:layout_marginBottom="25dp" />
+        p1:layout_height="175dp"
+        p1:id="@+id/chatbox" />
+    <TextView
+        p1:text="User"
+        p1:textAppearance="?android:attr/textAppearanceLarge"
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/userName" />
+    <GridLayout
+        p1:minWidth="25px"
+        p1:minHeight="25px"
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/gridLayout2">
+        <EditText
+            p1:id="@+id/editText1"
+            p1:layout_width="match_parent"
+            p1:layout_marginRight="0.0dp" />
+    </GridLayout>
+    <Button
+        p1:text="Enter"
+        p1:id="@+id/enter"
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content" />
 </LinearLayout>

@@ -69,8 +69,20 @@ namespace App1
 			// aapt resource value: 0x7f050003
 			public const int chatbox = 2131034115;
 			
+			// aapt resource value: 0x7f050006
+			public const int editText1 = 2131034118;
+			
+			// aapt resource value: 0x7f050007
+			public const int enter = 2131034119;
+			
+			// aapt resource value: 0x7f050005
+			public const int gridLayout2 = 2131034117;
+			
 			// aapt resource value: 0x7f050000
 			public const int linearLayout1 = 2131034112;
+			
+			// aapt resource value: 0x7f050004
+			public const int userName = 2131034116;
 			
 			static Id()
 			{
