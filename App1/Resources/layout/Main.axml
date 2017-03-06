@@ -11,13 +11,14 @@
         p1:layout_height="wrap_content"
         p1:id="@+id/charName" />
     <Button
-        p1:text="contiune"
+        p1:text="Clear"
         p1:layout_width="104.0dp"
         p1:layout_height="41.0dp"
         p1:id="@+id/chatNext" />
     <TextView
-        p1:text="This is the box that shows the character conversation"
+        p1:text=""
         p1:layout_width="match_parent"
+        p1:scrollbars="vertical"
         p1:layout_height="175dp"
         p1:id="@+id/chatbox" />
     <TextView
@@ -33,7 +34,7 @@
         p1:layout_height="wrap_content"
         p1:id="@+id/gridLayout2">
         <EditText
-            p1:id="@+id/editText1"
+            p1:id="@+id/userInput"
             p1:layout_width="match_parent"
             p1:layout_marginRight="0.0dp" />
     </GridLayout>
@@ -42,4 +43,9 @@
         p1:id="@+id/enter"
         p1:layout_width="match_parent"
         p1:layout_height="wrap_content" />
+    <TextView
+        p1:text="Inventory"
+        p1:layout_width="match_parent"
+        p1:layout_height="188.0dp"
+        p1:id="@+id/Inventory" />
 </LinearLayout>

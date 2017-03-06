@@ -60,6 +60,9 @@ namespace App1
 		public partial class Id
 		{
 			
+			// aapt resource value: 0x7f050008
+			public const int Inventory = 2131034120;
+			
 			// aapt resource value: 0x7f050001
 			public const int charName = 2131034113;
 			
@@ -69,9 +72,6 @@ namespace App1
 			// aapt resource value: 0x7f050003
 			public const int chatbox = 2131034115;
 			
-			// aapt resource value: 0x7f050006
-			public const int editText1 = 2131034118;
-			
 			// aapt resource value: 0x7f050007
 			public const int enter = 2131034119;
 			
@@ -80,6 +80,9 @@ namespace App1
 			
 			// aapt resource value: 0x7f050000
 			public const int linearLayout1 = 2131034112;
+			
+			// aapt resource value: 0x7f050006
+			public const int userInput = 2131034118;
 			
 			// aapt resource value: 0x7f050004
 			public const int userName = 2131034116;
