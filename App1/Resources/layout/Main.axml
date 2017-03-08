@@ -5,16 +5,11 @@
     p1:layout_height="match_parent"
     p1:id="@+id/linearLayout1">
     <TextView
-        p1:text="Character Name"
         p1:textAppearance="?android:attr/textAppearanceLarge"
         p1:layout_width="match_parent"
         p1:layout_height="wrap_content"
-        p1:id="@+id/charName" />
-    <Button
-        p1:text="Clear"
-        p1:layout_width="104.0dp"
-        p1:layout_height="41.0dp"
-        p1:id="@+id/chatNext" />
+        p1:id="@+id/robotName"
+        p1:text="Robot" />
     <TextView
         p1:text=""
         p1:layout_width="match_parent"
@@ -27,6 +22,16 @@
         p1:layout_width="match_parent"
         p1:layout_height="wrap_content"
         p1:id="@+id/userName" />
+    <TextView
+        p1:text="Age"
+        p1:id="@+id/userAge"
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content" />
+    <TextView
+        p1:text="Gender"
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/userGender" />
     <GridLayout
         p1:minWidth="25px"
         p1:minHeight="25px"
